@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+<p id="new"></p>
+<script type="text/javascript">
+var arr = [];
+var size = 5; 
+for(var i=0; i<size; i++) 
+{
+arr[i] = prompt('Enter Element ' + (i+1));
+}
+var res=arr.sort().reverse();
+console.log(res);
+var y=document.getElementById('new');
+y.innerHTML=res;
+</script>
+</body>
+</html>
